@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style scoped>
-    #hallo{
+    .hello{
         height: 100%;
         width: 100%;
     }
