@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <swiper :options="swiperOption" ref="mySwiperA">
+    <swiper :options="swiperOption" style="height: auto">
       <!-- 幻灯内容 -->
       <swiper-slide>I'm Slide 1</swiper-slide>
       <swiper-slide>I'm Slide 2</swiper-slide>
@@ -40,21 +40,12 @@ export default {
 </script>
 
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
+    .swiper-container .swiper-slide {
+        height: 300px;
+        line-height: 300px;
+    }
+    .swiper-container .swiper-slide:nth-child(2n) {
+        height: 500px;
+        line-height: 500px;
+    }
 </style>
