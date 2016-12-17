@@ -47,7 +47,7 @@
 </script>
 
 <style scoped>
-    .hello {
+    .index {
         background-color: rgb(223, 84, 32);
         height: 100%;
         line-height: 100%;
