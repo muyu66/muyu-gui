@@ -2,7 +2,7 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <swiper-slide>
-                <h1 class="text-center">Official website is building...
+                <h1 class="text-center">Official website is building
                     <small>有朋自远方来，不亦乐乎</small>
                 </h1>
             </swiper-slide>
