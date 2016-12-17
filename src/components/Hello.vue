@@ -55,6 +55,7 @@
         color: white;
     }
     h1 {
+        position: absolute;
         top: 20%;
     }
 </style>
