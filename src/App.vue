@@ -17,7 +17,6 @@
 
 <style>
     #app {
-        background-color: lightskyblue;
         height: 100%;
         width: 100%;
         position: absolute;
