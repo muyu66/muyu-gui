@@ -1,9 +1,21 @@
 <template>
     <div class="hello">
         <swiper :options="swiperOption" style="height: 100%">
-            <swiper-slide><div>有朋自远方来，不亦乐乎</div></swiper-slide>
-            <swiper-slide><div>星际的远征 StatLongWaric</div></swiper-slide>
-            <swiper-slide><div>议会 - 星际分会场</div></swiper-slide>
+            <swiper-slide>
+                <h1>Muyu 官网正在建设中
+                    <small>有朋自远方来，不亦乐乎</small>
+                </h1>
+            </swiper-slide>
+            <swiper-slide>
+                <h1>星际的远征 StatLongWaric
+                    <small>正在开发中</small>
+                </h1>
+            </swiper-slide>
+            <swiper-slide>
+                <h1>议会 - 星际分会场
+                    <small>正在开发中</small>
+                </h1>
+            </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
     </div>
