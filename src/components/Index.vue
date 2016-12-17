@@ -1,19 +1,19 @@
 <template>
-    <div class="hello">
+    <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <swiper-slide>
-                <h1 class="text-center">Muyu 官网正在建设中
+                <h1 class="text-center">官网 Building...
                     <small>有朋自远方来，不亦乐乎</small>
                 </h1>
             </swiper-slide>
             <swiper-slide>
-                <h1 class="text-center">星际的远征 StatLongWaric
-                    <small>正在开发中</small>
+                <h1 class="text-center">正在开发中
+                    <small>星际的远征 StatLongWaric</small>
                 </h1>
             </swiper-slide>
             <swiper-slide>
-                <h1 class="text-center">议会 - 星际分会场
-                    <small>正在开发中</small>
+                <h1 class="text-center">正在开发中
+                    <small>星际议会</small>
                 </h1>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
@@ -25,7 +25,7 @@
     import {swiper, swiperSlide} from 'vue-awesome-swiper'
 
     export default {
-        name: 'hello',
+        name: 'index',
         data () {
             return {
                 swiperOption: {
