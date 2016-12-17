@@ -54,6 +54,6 @@
         color: white;
     }
     h1{
-        margin-top: 45%;
+        margin-top: 20%;
     }
 </style>
