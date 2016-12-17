@@ -54,4 +54,7 @@
         width: 100%;
         color: white;
     }
+    h1 {
+        top: 20%;
+    }
 </style>
