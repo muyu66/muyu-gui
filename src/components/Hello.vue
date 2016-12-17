@@ -54,12 +54,12 @@
         width: 100%;
         color: white;
     }
+
     h1 {
-        margin: auto;
-        position: absolute;
-        top: 0; left: 0; bottom: 0; right: 0;
+        padding-top: 18%;
     }
-    .small{
+
+    small {
         color: aliceblue;
     }
 </style>
