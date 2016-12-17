@@ -53,7 +53,4 @@
         width: 100%;
         color: white;
     }
-    h1{
-        margin-top: 20%;
-    }
 </style>
