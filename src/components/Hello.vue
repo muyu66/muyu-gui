@@ -40,6 +40,6 @@
         height: 100%;
         width: 100%;
         color: white;
-        margin: auto;
+        margin: 0 auto;
     }
 </style>
