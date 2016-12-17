@@ -1,9 +1,9 @@
 <template>
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
-            <swiper-slide v-for="todo in todos">
-                <h1 class="text-center">{{ todo.text1 }}
-                    <small>{{ todo.text2 }}</small>
+            <swiper-slide v-for="title in titles">
+                <h1 class="text-center">{{ title.main_title }}
+                    <small>{{ title.sub_title }}</small>
                 </h1>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
@@ -18,18 +18,18 @@
         name: 'index',
         data () {
             return {
-                todos: [
+                titles: [
                     {
-                        text1: 'Learn JavaScript',
-                        text2: 'Learn JavaScript'
+                        main_title: 'Official website is building',
+                        sub_title: '有朋自远方来，不亦乐乎'
                     },
                     {
-                        text1: 'Learn JavaScript',
-                        text2: 'Learn JavaScript'
+                        main_title: 'Coding',
+                        sub_title: '星际的远征 StatLongWaric'
                     },
                     {
-                        text1: 'Learn JavaScript',
-                        text2: 'Learn JavaScript'
+                        main_title: 'Planing',
+                        sub_title: '星际议会'
                     },
                 ],
                 swiperOption: {
