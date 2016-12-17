@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <swiper :options="swiperOption" style="height: auto">
+    <swiper :options="swiperOption" style="height: 100%">
       <!-- 幻灯内容 -->
       <swiper-slide>I'm Slide 1</swiper-slide>
       <swiper-slide>I'm Slide 2</swiper-slide>
