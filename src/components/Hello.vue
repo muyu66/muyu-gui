@@ -52,6 +52,8 @@
         height: 100%;
         width: 100%;
         color: white;
+    }
+    h1{
         margin-top: 45%;
     }
 </style>
