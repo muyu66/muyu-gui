@@ -52,6 +52,6 @@
         height: 100%;
         width: 100%;
         color: white;
-        margin: 0 auto;
+        margin-top: 45%;
     }
 </style>
