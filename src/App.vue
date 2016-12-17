@@ -1,6 +1,6 @@
 <template>
-    <div id="app">
-        <hello></hello>
+    <div class="container-fluid" id="app">
+        <hello class="row"></hello>
     </div>
 </template>
 

@@ -2,17 +2,17 @@
     <div class="hello">
         <swiper :options="swiperOption" style="height: 100%">
             <swiper-slide>
-                <h1>Muyu 官网正在建设中
+                <h1 class="text-center">Muyu 官网正在建设中
                     <small>有朋自远方来，不亦乐乎</small>
                 </h1>
             </swiper-slide>
             <swiper-slide>
-                <h1>星际的远征 StatLongWaric
+                <h1 class="text-center">星际的远征 StatLongWaric
                     <small>正在开发中</small>
                 </h1>
             </swiper-slide>
             <swiper-slide>
-                <h1>议会 - 星际分会场
+                <h1 class="text-center">议会 - 星际分会场
                     <small>正在开发中</small>
                 </h1>
             </swiper-slide>
