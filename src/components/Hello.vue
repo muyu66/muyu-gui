@@ -60,6 +60,6 @@
     }
 
     small {
-        color: aliceblue;
+        color: #c9d0d6;
     }
 </style>
