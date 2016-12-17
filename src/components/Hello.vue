@@ -40,5 +40,10 @@ export default {
 </script>
 
 <style scoped>
-
+    .swiper-container .swiper-slide {
+        height: 100%;
+    }
+    .swiper-container .swiper-slide:nth-child(2n) {
+        height: 100%;
+    }
 </style>
