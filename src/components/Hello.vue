@@ -55,6 +55,6 @@
         color: white;
     }
     h1 {
-        padding-top: 30%;
+        padding-top: 20%;
     }
 </style>
