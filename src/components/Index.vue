@@ -1,24 +1,9 @@
 <template>
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
-            <swiper-slide>
-                <h1 v-for="todo in todos" class="text-center">{{ todo.text1 }}
+            <swiper-slide v-for="todo in todos">
+                <h1 class="text-center">{{ todo.text1 }}
                     <small>{{ todo.text2 }}</small>
-                </h1>
-            </swiper-slide>
-            <swiper-slide>
-                <h1 class="text-center">Official website is building
-                    <small>有朋自远方来，不亦乐乎</small>
-                </h1>
-            </swiper-slide>
-            <swiper-slide>
-                <h1 class="text-center">Coding
-                    <small>星际的远征 StatLongWaric</small>
-                </h1>
-            </swiper-slide>
-            <swiper-slide>
-                <h1 class="text-center">Planing
-                    <small>星际议会</small>
                 </h1>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
