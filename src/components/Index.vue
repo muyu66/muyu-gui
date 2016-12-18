@@ -62,6 +62,7 @@
     }
 
     .slide {
+        text-align: center;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
