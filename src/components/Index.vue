@@ -54,9 +54,6 @@
     .index {
         background-color: rgb(223, 84, 32);
         color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         height: 100%;
     }
 
