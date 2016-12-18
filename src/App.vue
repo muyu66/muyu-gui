@@ -16,7 +16,7 @@
 </script>
 
 <style>
-    html, body {
+    #app {
         top: 0;
         bottom: 0;
     }
