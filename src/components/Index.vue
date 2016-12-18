@@ -2,9 +2,11 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <swiper-slide v-for="title in titles">
-                <h1 class="text-center">{{ title.main_title }}
-                    <small>{{ title.sub_title }}</small>
-                </h1>
+                <div class="slide">
+                    <h1 class="text-center">{{ title.main_title }}
+                        <small>{{ title.sub_title }}</small>
+                    </h1>
+                </div>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -59,13 +61,9 @@
         background-color: rgb(223, 84, 32);
     }
 
-    h1 {
+    .slide {
         position: absolute;
         top: 50%;
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
 
