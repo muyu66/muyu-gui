@@ -56,6 +56,7 @@
         justify-content: center;
         color: white;
         background-color: rgb(223, 84, 32);
+        align-items: center;
     }
 
     small {

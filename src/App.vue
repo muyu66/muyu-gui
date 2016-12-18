@@ -16,14 +16,7 @@
 </script>
 
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        height: 100%;
-    }
-
     #app {
-        background-color: #ccc;
+
     }
 </style>
