@@ -57,10 +57,11 @@
         line-height: 100%;
         width: 100%;
         color: white;
+        display: flex;
     }
 
     h1 {
-        padding-top: 18%;
+        margin: auto;
     }
 
     small {
