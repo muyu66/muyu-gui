@@ -61,7 +61,7 @@
 
     h1 {
         width: 100%;
-        height: 50%;
+        height: 100%;
         overflow: auto;
         margin: auto;
         position: absolute;
