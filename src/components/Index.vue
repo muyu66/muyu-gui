@@ -53,10 +53,15 @@
 <style scoped>
     .index {
         background-color: rgb(223, 84, 32);
-        height: 100%;
-        line-height: 100%;
-        width: 100%;
         color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    h1 {
+        max-width: 50%;
     }
 
     small {
