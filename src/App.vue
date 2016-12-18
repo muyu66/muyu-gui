@@ -22,5 +22,11 @@
         position: absolute;
         top: 0;
         left: 0;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
     }
 </style>

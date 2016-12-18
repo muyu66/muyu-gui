@@ -2,11 +2,9 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <swiper-slide v-for="title in titles">
-                <div>
                 <h1 class="text-center">{{ title.main_title }}
                     <small>{{ title.sub_title }}</small>
                 </h1>
-                </div>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -59,12 +57,6 @@
         line-height: 100%;
         width: 100%;
         color: white;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-align-items: center;
-        align-items: center;
-        -webkit-justify-content: center;
-        justify-content: center;
     }
 
     small {
