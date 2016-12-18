@@ -59,6 +59,10 @@
         background-color: rgb(223, 84, 32);
     }
 
+    h1 {
+        min-height: 45vh;
+    }
+
     small {
         color: #c9d0d6;
     }
