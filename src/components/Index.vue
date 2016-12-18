@@ -2,11 +2,9 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <swiper-slide v-for="title in titles">
-                <div class="slide">
-                    <h1 class="text-center">{{ title.main_title }}
-                        <small>{{ title.sub_title }}</small>
-                    </h1>
-                </div>
+                <h1 class="slide text-center">{{ title.main_title }}
+                    <small>{{ title.sub_title }}</small>
+                </h1>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -62,7 +60,6 @@
     }
 
     .slide {
-        text-align: center;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
