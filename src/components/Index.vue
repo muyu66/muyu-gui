@@ -61,7 +61,7 @@
     }
 
     h1 {
-        max-width: 50%;
+        max-width: 100%;
     }
 
     small {
