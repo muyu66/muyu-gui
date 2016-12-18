@@ -54,11 +54,9 @@
     .index {
         position: relative;
         height: 100%;
-        display: flex;
-        justify-content: center;
+        width: 100%;
         color: white;
         background-color: rgb(223, 84, 32);
-        align-items: center;
     }
 
     small {
