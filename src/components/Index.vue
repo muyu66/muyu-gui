@@ -60,7 +60,7 @@
     }
 
     .slide {
-        position: absolute;
+        position: fixed;
         top: 50%;
         transform: translateY(-50%);
     }
