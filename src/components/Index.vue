@@ -20,7 +20,7 @@
             return {
                 titles: [
                     {
-                        main_title: 'Official website is building',
+                        main_title: 'Building',
                         sub_title: '有朋自远方来，不亦乐乎'
                     },
                     {
@@ -61,7 +61,7 @@
 
     .slide {
         position: relative;
-        top: 50%;
+        top: 45%;
         transform: translateY(-50%);
     }
 
