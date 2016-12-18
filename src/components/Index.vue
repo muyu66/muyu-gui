@@ -60,7 +60,7 @@
     }
 
     h1 {
-        min-height: 45vh;
+        min-height: 45%;
     }
 
     small {
