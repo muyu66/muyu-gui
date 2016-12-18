@@ -60,8 +60,7 @@
     }
 
     h1 {
-        position: relative;
-        min-height: 45%;
+        top: 45%;
     }
 
     small {
