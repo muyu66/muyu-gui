@@ -22,7 +22,6 @@
     }
 
     #app {
-        height: 100px;
         background-color: #ccc;
     }
 </style>

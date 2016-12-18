@@ -56,9 +56,13 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+        height: 100%;
         background-color: rgb(223, 84, 32);
-        min-height: calc(100vh - 200px);
         color: white;
+    }
+
+    h1 {
+        min-height: calc(100vh - 20px);
     }
 
     small {
