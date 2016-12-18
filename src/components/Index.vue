@@ -60,7 +60,12 @@
     }
 
     h1 {
-        top: 45%;
+        width: 50%;
+        height: 50%;
+        overflow: auto;
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
     }
 
     small {
