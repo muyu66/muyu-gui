@@ -25,7 +25,7 @@
                     },
                     {
                         main_title: 'Coding',
-                        sub_title: '星际的远征 StatLongWaric'
+                        sub_title: '星际的远征'
                     },
                     {
                         main_title: 'Planing',
