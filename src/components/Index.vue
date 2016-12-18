@@ -52,6 +52,8 @@
 
 <style scoped>
     .index {
+        position: relative;
+        height: 100%;
         display: flex;
         justify-content: center;
         color: white;
