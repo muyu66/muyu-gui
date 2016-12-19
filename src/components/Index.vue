@@ -1,13 +1,12 @@
 <template>
     <div class="index">
-        <div>
-            <ul class="nav nav-pills" style="float: right">
-                <li>
-                    <button type="button" class="btn btn-default">Rolling</button>
-                </li>
-            </ul>
-        </div>
         <swiper :options="swiperOption" style="height: 100%">
+            <div id='right'>
+                <ul class="nav nav-pills">
+                    <li><button type="button" class="btn btn-warning">Stable</button></li>
+                    <li><button type="button" class="btn btn-danger">Rolling</button></li>
+                </ul>
+            </div>
             <swiper-slide v-for="title in titles">
                 <h1 class="slide text-center">{{ title.main_title }}
                     <small>{{ title.sub_title }}</small>
@@ -74,5 +73,9 @@
 
     small {
         color: #c9d0d6;
+    }
+
+    #right {
+        float: right;
     }
 </style>
