@@ -3,8 +3,12 @@
         <swiper :options="swiperOption" style="height: 100%">
             <div id='right'>
                 <ul class="nav nav-pills">
-                    <li><button type="button" class="btn btn-warning">Stable</button></li>
-                    <li><button type="button" class="btn btn-danger">Rolling</button></li>
+                    <li>
+                        <button type="button" class="btn btn-warning">Stable</button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-danger">Rolling</button>
+                    </li>
                 </ul>
             </div>
             <swiper-slide v-for="title in titles">
@@ -77,5 +81,7 @@
 
     #right {
         float: right;
+        position: absolute;
+        margin: 1% 1% 0 0;
     }
 </style>
