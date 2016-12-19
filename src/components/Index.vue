@@ -55,7 +55,7 @@
 
 <style scoped>
     .ubuntu {
-        background-color: red;
+        background-color: #c34113;
     }
 
     .index {
