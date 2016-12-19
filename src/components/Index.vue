@@ -113,7 +113,6 @@
     .slide {
         position: relative;
         top: 40%;
-        transform: translateY(-50%);
     }
 
     small {
