@@ -1,7 +1,7 @@
 <template>
     <div class="index">
         <div>
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills" style="float: right">
                 <li>
                     <button type="button" class="btn btn-default">Rolling</button>
                 </li>
