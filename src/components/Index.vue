@@ -65,7 +65,7 @@
 
     .slide {
         position: relative;
-        top: 45%;
+        top: 40%;
         transform: translateY(-50%);
     }
 
@@ -74,8 +74,8 @@
     }
 
     #right {
-        float: right;
         position: absolute;
-        margin: 1% 1% 0 0;
+        right: 1%;
+        top: 1%;
     }
 </style>
