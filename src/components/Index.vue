@@ -3,7 +3,7 @@
         <swiper :options="swiperOption" style="height: 100%">
             <div id='right'>
                 <button type="button" class="btn btn-danger ubuntu" v-on:click="go_url">
-                    {{ isRolling() }}
+                    {{ displayVersion() }}
                 </button>
             </div>
             <swiper-slide v-for="title in titles">
