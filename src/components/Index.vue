@@ -7,9 +7,11 @@
                 </button>
             </div>
             <swiper-slide v-for="title in titles">
-                <h1 class="slide text-center">{{ title.main_title }}
-                    <small>{{ title.sub_title }}</small>
-                </h1>
+                <div v-bind:style='title.theme'>
+                    <h1 class="slide text-center">{{ title.main_title }}
+                        <small>{{ title.sub_title }}</small>
+                    </h1>
+                </div>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -49,15 +51,27 @@
                 titles: [
                     {
                         main_title: 'Building',
-                        sub_title: '有朋自远方来，不亦乐乎'
+                        sub_title: '有朋自远方来，不亦乐乎',
+                        theme: {
+                            color: 'blue',
+                            backgroundColor: 'red',
+                        },
                     },
                     {
                         main_title: 'Coding',
-                        sub_title: '星际的远征'
+                        sub_title: '星际的远征',
+                        theme: {
+                            color: 'yellow',
+                            backgroundColor: 'red',
+                        },
                     },
                     {
                         main_title: 'Planing',
-                        sub_title: '星际议会'
+                        sub_title: '星际议会',
+                        theme: {
+                            color: 'green',
+                            backgroundColor: 'red',
+                        },
                     },
                 ],
                 swiperOption: {
