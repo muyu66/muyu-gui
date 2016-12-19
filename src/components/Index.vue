@@ -7,9 +7,8 @@
                 </button>
             </div>
             <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
-                <h1 class="h1 text-center">{{ title.main_title }}
-                    <small v-bind:style='title.small_theme'>{{ title.sub_title }}</small>
-                </h1>
+                <h1 class="h1 text-center">{{ title.main_title }}</h1>
+                <small v-bind:style='title.small_theme'>{{ title.sub_title }}</small>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
