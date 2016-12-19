@@ -102,8 +102,6 @@
         position: relative;
         height: 100%;
         width: 100%;
-        color: white;
-        background-color: rgb(223, 84, 32);
     }
 
     .child {
