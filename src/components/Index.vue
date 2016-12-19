@@ -76,10 +76,10 @@
                     pagination: '.swiper-pagination',
                     direction: 'vertical',
                     slidesPerView: 1,
-                    paginationClickable: false,
-                    spaceBetween: 30,
+                    paginationClickable: true,
+                    spaceBetween: 0,
                     mousewheelControl: true,
-                    autoHeight: true
+                    autoHeight: false
                 }
             }
         }
@@ -104,6 +104,8 @@
 
     .h1 {
         position: relative;
+        top: 40%;
+        transform: translateY(-50%);
     }
 
     small {
