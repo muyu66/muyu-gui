@@ -6,12 +6,10 @@
                     {{ displayVersion() }}
                 </button>
             </div>
-            <swiper-slide v-for="title in titles">
-                <div v-bind:style='title.theme' class='child'>
+            <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
                     <h1 class="slide text-center">{{ title.main_title }}
                         <small>{{ title.sub_title }}</small>
                     </h1>
-                </div>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -113,6 +111,7 @@
     .slide {
         position: relative;
         top: 40%;
+        transform: translateY(-50%);
     }
 
     small {
