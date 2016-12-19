@@ -2,7 +2,6 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <div id='right'>
-                <a href="aaa">aaaaaa</a>
                 <button type="button" class="btn btn-warning">Stable</button>
                 <button type="button" class="btn btn-warning">Rolling</button>
             </div>
@@ -78,6 +77,6 @@
         position: absolute;
         right: 2%;
         top: 4%;
-        z-index: 9999;
+        z-index: 1;
     }
 </style>
