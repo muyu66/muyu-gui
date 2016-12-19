@@ -7,7 +7,7 @@
                 </button>
             </div>
             <swiper-slide v-for="title in titles">
-                <div v-bind:style='title.theme'>
+                <div v-bind:style='title.theme' class='child'>
                     <h1 class="slide text-center">{{ title.main_title }}
                         <small>{{ title.sub_title }}</small>
                     </h1>
@@ -53,24 +53,24 @@
                         main_title: 'Building',
                         sub_title: '有朋自远方来，不亦乐乎',
                         theme: {
-                            color: 'blue',
-                            backgroundColor: 'red',
+                            color: 'white',
+                            backgroundColor: 'rgb(223, 84, 32)',
                         },
                     },
                     {
                         main_title: 'Coding',
                         sub_title: '星际的远征',
                         theme: {
-                            color: 'yellow',
-                            backgroundColor: 'red',
+                            color: 'white',
+                            backgroundColor: 'black',
                         },
                     },
                     {
                         main_title: 'Planing',
                         sub_title: '星际议会',
                         theme: {
-                            color: 'green',
-                            backgroundColor: 'red',
+                            color: 'white',
+                            backgroundColor: 'blue',
                         },
                     },
                 ],
@@ -104,6 +104,12 @@
         width: 100%;
         color: white;
         background-color: rgb(223, 84, 32);
+    }
+
+    .child {
+        position: relative;
+        height: 100%;
+        width: 100%;
     }
 
     .slide {
