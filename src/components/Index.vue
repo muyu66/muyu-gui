@@ -2,7 +2,7 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <div id='right'>
-                <button type="button" class="btn btn-danger ubuntu">Rolling</button>
+                <button type="button" class="btn btn-danger ubuntu">{{ isRolling() }}</button>
             </div>
             <swiper-slide v-for="title in titles">
                 <h1 class="slide text-center">{{ title.main_title }}
@@ -19,7 +19,18 @@
 
     export default {
         name: 'index',
-        data () {
+        computed: {
+            isRolling: function () {
+                let hostName = window.location.hostname;
+                if (hostName === 'rolling.muyu.party') {
+                    return '实时推进';
+                } else {
+                    return '稳定版';
+                }
+            }
+        },
+        data()
+        {
             return {
                 titles: [
                     {
@@ -45,7 +56,8 @@
                     autoHeight: true
                 }
             }
-        },
+        }
+        ,
         components: {
             swiper,
             swiperSlide
