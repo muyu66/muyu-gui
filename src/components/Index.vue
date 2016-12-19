@@ -77,7 +77,7 @@
                             backgroundColor: 'rgb(0, 162, 202)',
                         },
                         smallTheme: {
-                            color: '#ccc',
+                            color: 'red',
                         },
                     },
                 ],
