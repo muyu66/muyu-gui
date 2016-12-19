@@ -62,7 +62,7 @@
                         sub_title: '星际的远征',
                         theme: {
                             color: 'white',
-                            backgroundColor: 'black',
+                            backgroundColor: '#333',
                         },
                     },
                     {
@@ -70,7 +70,7 @@
                         sub_title: '星际议会',
                         theme: {
                             color: 'white',
-                            backgroundColor: 'blue',
+                            backgroundColor: 'rgb(0, 162, 202)',
                         },
                     },
                 ],
