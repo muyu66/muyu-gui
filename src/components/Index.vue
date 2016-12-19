@@ -8,7 +8,7 @@
             </div>
             <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
                 <h1 class="h1 text-center">{{ title.main_title }}
-                    <small v-bind:style='title.theme2'>{{ title.sub_title }}</small>
+                    <small v-bind:style='title.theme_small'>{{ title.sub_title }}</small>
                 </h1>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
@@ -54,8 +54,8 @@
                             color: 'white',
                             backgroundColor: 'rgb(223, 84, 32)',
                         },
-                        theme2: {
-                            color: '#bbb',
+                        theme_small: {
+                            color: '#E2EBF1',
                         },
                     },
                     {
@@ -65,7 +65,7 @@
                             color: 'white',
                             backgroundColor: '#333',
                         },
-                        theme2: {
+                        theme_small: {
                             color: '#c9d0d6',
                         },
                     },
@@ -76,8 +76,8 @@
                             color: 'white',
                             backgroundColor: 'rgb(0, 162, 202)',
                         },
-                        theme2: {
-                            color: 'red',
+                        theme_small: {
+                            color: '#ccc',
                         },
                     },
                 ],
