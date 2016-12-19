@@ -77,9 +77,9 @@
                     direction: 'vertical',
                     slidesPerView: 1,
                     paginationClickable: true,
-                    spaceBetween: 30,
+                    spaceBetween: 0,
                     mousewheelControl: true,
-                    autoHeight: false
+                    autoHeight: true
                 }
             }
         }
