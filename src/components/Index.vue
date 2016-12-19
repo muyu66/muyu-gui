@@ -55,7 +55,7 @@
                             backgroundColor: 'rgb(223, 84, 32)',
                         },
                         theme_small: {
-                            color: '#D94111',
+                            color: '#E2EBF1',
                         },
                     },
                     {
