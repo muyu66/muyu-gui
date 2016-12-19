@@ -19,7 +19,7 @@
 
     export default {
         name: 'index',
-        computed: {
+        methods: {
             isRolling: function () {
                 let hostName = window.location.hostname;
                 if (hostName === 'rolling.muyu.party') {
