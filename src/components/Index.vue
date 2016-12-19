@@ -1,5 +1,12 @@
 <template>
     <div class="index">
+        <div>
+            <ul class="nav nav-pills">
+                <li>
+                    <button type="button" class="btn btn-default">Rolling</button>
+                </li>
+            </ul>
+        </div>
         <swiper :options="swiperOption" style="height: 100%">
             <swiper-slide v-for="title in titles">
                 <h1 class="slide text-center">{{ title.main_title }}
