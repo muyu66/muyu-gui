@@ -2,8 +2,8 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <div id='right'>
-                <button type="button" class="btn btn-link">Stable</button>
-                <button type="button" class="btn btn-link">Rolling</button>
+                <button type="button" class="btn btn-warning">Stable</button>
+                <button type="button" class="btn btn-warning">Rolling</button>
             </div>
             <swiper-slide v-for="title in titles">
                 <h1 class="slide text-center">{{ title.main_title }}
@@ -40,7 +40,7 @@
                     pagination: '.swiper-pagination',
                     direction: 'vertical',
                     slidesPerView: 1,
-                    paginationClickable: true,
+                    paginationClickable: false,
                     spaceBetween: 30,
                     mousewheelControl: true,
                     autoHeight: true
