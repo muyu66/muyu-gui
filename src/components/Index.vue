@@ -2,8 +2,7 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <div id='right'>
-                <button type="button" class="btn btn-warning">Stable</button>
-                <button type="button" class="btn btn-warning">Rolling</button>
+                <button type="button" class="btn btn-danger">Rolling</button>
             </div>
             <swiper-slide v-for="title in titles">
                 <h1 class="slide text-center">{{ title.main_title }}
