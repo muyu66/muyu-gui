@@ -3,7 +3,7 @@
         <swiper :options="swiperOption" style="height: 100%">
             <div id='right'>
                 <button type="button" class="btn btn-danger ubuntu" v-on:click="go_url">
-                    {{ displayVersion() }}
+                    {{ reverseVersion() }}
                 </button>
             </div>
             <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
@@ -26,20 +26,20 @@
                 let hostName = window.location.hostname;
                 return hostName === 'rolling.muyu.party';
             },
-            displayVersion: function () {
+            reverseVersion: function () {
                 if (this.isRolling()) {
-                    return '实时推进';
+                    return '稳定版';
                 }
                 else {
-                    return '稳定版';
+                    return '实时推进';
                 }
             },
             go_url: function () {
                 if (this.isRolling()) {
-                    window.location.href = 'https://rolling.muyu.party';
+                    window.location.href = 'https://www.muyu.party';
                 }
                 else {
-                    window.location.href = 'https://www.muyu.party';
+                    window.location.href = 'https://rolling.muyu.party';
                 }
             },
         },
@@ -74,7 +74,7 @@
                         sub_title: '星际议会',
                         theme: {
                             color: 'white',
-                            backgroundColor: 'rgb(0, 162, 202)',
+                            backgroundColor: '#1786aa',
                         },
                         theme_small: {
                             color: '#ccc',
