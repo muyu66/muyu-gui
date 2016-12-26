@@ -84,7 +84,7 @@
                         main_title: 'Planing',
                         sub_title: '星际议会',
                         theme: {
-                            color: 'white',
+                            color: 'black',
                             backgroundColor: '#b6f2b6',
                         },
                         theme_small: {
