@@ -85,10 +85,10 @@
                         sub_title: '星际议会',
                         theme: {
                             color: 'black',
-                            backgroundColor: '#b6f2b6',
+                            backgroundColor: '#a6f2bf',
                         },
                         theme_small: {
-                            color: '#ccc',
+                            color: '#4b4b4b',
                         },
                     },
                 ],
