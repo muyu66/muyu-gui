@@ -71,13 +71,24 @@
                     },
                     {
                         main_title: 'Planing',
-                        sub_title: '星际议会',
+                        sub_title: '问仙之志',
                         theme: {
                             color: 'white',
                             backgroundColor: '#1786aa',
                         },
                         theme_small: {
                             color: '#ccc',
+                        },
+                    },
+                    {
+                        main_title: 'Planing',
+                        sub_title: '星际议会',
+                        theme: {
+                            color: 'black',
+                            backgroundColor: '#a6f2bf',
+                        },
+                        theme_small: {
+                            color: '#4b4b4b',
                         },
                     },
                 ],
