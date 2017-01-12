@@ -1,12 +1,15 @@
 <template>
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
-            <div id='right'>
+            <div class='right'>
                 <button type="button" class="btn btn-danger ubuntu" v-on:click="go_url">
                     {{ reverseVersion() }}
                 </button>
             </div>
             <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
+                <button v-if="title.sub_title == '星际的远征'" type="button"
+                        class="btn btn-default right" v-on:click="goSlwRolling">20% 开发版
+                </button>
                 <h1 class="h1 text-center">{{ title.main_title }}
                     <small v-bind:style='title.theme_small'>{{ title.sub_title }}</small>
                 </h1>
@@ -42,6 +45,9 @@
                     window.location.href = 'https://rolling.muyu.party';
                 }
             },
+            goSlwRolling: function () {
+                window.location.href = 'https://rolling.starlongwaric.space';
+            },
         },
         data()
         {
@@ -59,7 +65,7 @@
                         },
                     },
                     {
-                        main_title: 'Coding',
+                        main_title: '20% Coding',
                         sub_title: '星际的远征',
                         theme: {
                             color: 'white',
@@ -128,7 +134,7 @@
         transform: translateY(-50%);
     }
 
-    #right {
+    .right {
         position: absolute;
         right: 2%;
         top: 4%;
