@@ -2,16 +2,16 @@
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
             <div class='right'>
-                <button type="button" class="btn btn-danger ubuntu" v-on:click="go_url">
+                <button type="button" class="btn btn-danger ubuntu" @click="go_url">
                     {{ reverseVersion() }}
                 </button>
             </div>
             <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
                 <button v-if="title.sub_title == '星际的远征'" type="button"
-                        class="btn btn-default right" v-on:click="goSlwRolling">20% 开发版
+                        class="btn btn-default right" @click="goSlwRolling">2.0.0 Alpha3
                 </button>
                 <h1 class="h1 text-center">{{ title.main_title }}
-                    <small v-bind:style='title.theme_small'>{{ title.sub_title }}</small>
+                    <small :style='title.theme_small'>{{ title.sub_title }}</small>
                 </h1>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
@@ -65,7 +65,7 @@
                         },
                     },
                     {
-                        main_title: '20% Coding',
+                        main_title: '2.0.0 Alpha3',
                         sub_title: '星际的远征',
                         theme: {
                             color: 'white',
@@ -88,7 +88,7 @@
                     },
                     {
                         main_title: 'Planing',
-                        sub_title: '星际议会',
+                        sub_title: 'Pokemon 同人',
                         theme: {
                             color: 'black',
                             backgroundColor: '#a6f2bf',
