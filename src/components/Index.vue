@@ -8,7 +8,7 @@
             </div>
             <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
                 <button v-if="title.sub_title == '星际的远征'" type="button"
-                        class="btn btn-default right" @click="goSlwRolling">2.0.0 Alpha1
+                        class="btn btn-default right" @click="goSlwRolling">2.0.0 Alpha3
                 </button>
                 <h1 class="h1 text-center">{{ title.main_title }}
                     <small :style='title.theme_small'>{{ title.sub_title }}</small>
@@ -65,7 +65,7 @@
                         },
                     },
                     {
-                        main_title: '2.0.0 Alpha1',
+                        main_title: '2.0.0 Alpha3',
                         sub_title: '星际的远征',
                         theme: {
                             color: 'white',
@@ -88,7 +88,7 @@
                     },
                     {
                         main_title: 'Planing',
-                        sub_title: '星际议会',
+                        sub_title: 'Pokemon 同人',
                         theme: {
                             color: 'black',
                             backgroundColor: '#a6f2bf',
