@@ -77,17 +77,6 @@
                     },
                     {
                         main_title: 'Planing',
-                        sub_title: '问仙之志',
-                        theme: {
-                            color: 'white',
-                            backgroundColor: '#1786aa',
-                        },
-                        theme_small: {
-                            color: '#ccc',
-                        },
-                    },
-                    {
-                        main_title: 'Planing',
                         sub_title: 'Pokemon 同人',
                         theme: {
                             color: 'black',
@@ -95,6 +84,17 @@
                         },
                         theme_small: {
                             color: '#4b4b4b',
+                        },
+                    },
+                    {
+                        main_title: 'Planing',
+                        sub_title: '星际会议',
+                        theme: {
+                            color: 'white',
+                            backgroundColor: '#1786aa',
+                        },
+                        theme_small: {
+                            color: '#ccc',
                         },
                     },
                 ],
