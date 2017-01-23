@@ -1,14 +1,17 @@
 <template>
     <div class="index">
         <swiper :options="swiperOption" style="height: 100%">
-            <div id='right'>
-                <button type="button" class="btn btn-danger ubuntu" v-on:click="go_url">
+            <div class='right'>
+                <button type="button" class="btn btn-danger ubuntu" @click="go_url">
                     {{ reverseVersion() }}
                 </button>
             </div>
             <swiper-slide v-for="title in titles" v-bind:style='title.theme'>
+                <button v-if="title.sub_title == '星际的远征'" type="button"
+                        class="btn btn-default right" @click="goSlwRolling">2.0.0 Alpha3
+                </button>
                 <h1 class="h1 text-center">{{ title.main_title }}
-                    <small v-bind:style='title.theme_small'>{{ title.sub_title }}</small>
+                    <small :style='title.theme_small'>{{ title.sub_title }}</small>
                 </h1>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
@@ -42,6 +45,9 @@
                     window.location.href = 'https://rolling.muyu.party';
                 }
             },
+            goSlwRolling: function () {
+                window.location.href = 'https://rolling.starlongwaric.space';
+            },
         },
         data()
         {
@@ -59,7 +65,7 @@
                         },
                     },
                     {
-                        main_title: 'Coding',
+                        main_title: '2.0.0 Alpha3',
                         sub_title: '星际的远征',
                         theme: {
                             color: 'white',
@@ -71,24 +77,24 @@
                     },
                     {
                         main_title: 'Planing',
-                        sub_title: '问仙之志',
-                        theme: {
-                            color: 'white',
-                            backgroundColor: '#1786aa',
-                        },
-                        theme_small: {
-                            color: '#ccc',
-                        },
-                    },
-                    {
-                        main_title: 'Planing',
-                        sub_title: '星际议会',
+                        sub_title: 'Pokemon 同人',
                         theme: {
                             color: 'black',
                             backgroundColor: '#a6f2bf',
                         },
                         theme_small: {
                             color: '#4b4b4b',
+                        },
+                    },
+                    {
+                        main_title: 'Planing',
+                        sub_title: '星际会议',
+                        theme: {
+                            color: 'white',
+                            backgroundColor: '#1786aa',
+                        },
+                        theme_small: {
+                            color: '#ccc',
                         },
                     },
                 ],
@@ -128,7 +134,7 @@
         transform: translateY(-50%);
     }
 
-    #right {
+    .right {
         position: absolute;
         right: 2%;
         top: 4%;
